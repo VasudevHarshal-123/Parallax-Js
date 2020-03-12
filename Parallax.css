@@ -1,0 +1,131 @@
+html{
+	pointer-events: auto;
+}
+*{
+	box-sizing:border-box;
+	margin:0;
+	/*transition: all ease-in-out 250ms;*/
+}
+
+.container{
+	min-height: 100vh;
+	overflow: hidden;
+}
+.parallax-wrapper{
+    width: 100%;
+    position: relative;
+	background:transparent;
+	color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*height: 100vh;*/
+	
+}
+#parallax-wrapper1{
+    width: 100%;
+    position: relative;
+	background:transparent;
+	color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+
+}
+#parallax-wrapper2{
+
+    width: 100%;
+    position: relative;
+	background:transparent;
+	color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+}
+#parallax-wrapper3{
+	
+    width: 100%;
+    position: relative;
+	background:transparent;
+	color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;	
+}
+.parall{				
+	position:absolute;
+	/*height: 6200px;*/
+	height: 980px;
+	width: 100%;
+	z-index: -1;
+	overflow: hidden;
+	background: url("https://i.pinimg.com/originals/6c/e8/5c/6ce85c7ab0269c3c25bba8ffc902ef08.jpg");
+	top: 0;
+	/*background-attachment:scroll;*/
+	/*background-repeat: repeat;*/
+	/*background-attachment: fixed;*/
+	/*margin-bottom: auto;*/
+
+
+
+}
+#parallax1{
+	position:absolute;
+	/*height: 6200px;*/
+	/*height: 980px;*/
+	width: 100%;
+	z-index: -1;
+	overflow: hidden;
+	background: url("https://images.unsplash.com/photo-1577255714682-69db9b067fda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+	top: 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+#parallax2{
+	position:absolute;
+	/*height: 6200px;*/
+	/*height: 980px;*/
+	width: 100%;
+	z-index: -1;
+	overflow: hidden;
+	background: url("https://images.unsplash.com/photo-1569313815155-9c7206ddb924?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+	top: 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#parallax3{
+	position:absolute;
+	/*height: 6200px;*/
+	/*height: 980px;*/
+	width: 100%;
+	z-index: -1;
+	overflow: hidden;
+	background: url("https://img5.goodfon.com/wallpaper/nbig/e/ac/landscape-tent-campfire-glow-sparks-camping-trees-lake-stars.jpg");
+	top: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header{
+position: relative;
+background: transparent;
+}
+h2{
+	font-size: 30px;
+	color: yellow;
+}
+
+.section{
+	top: 0;
+	background-color: white;
+}
+p{
+	background-color: white;
+}

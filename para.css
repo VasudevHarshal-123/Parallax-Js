@@ -1,0 +1,263 @@
+
+p{
+	display: block;
+	margin: 0;
+}
+body{
+	margin: 0;
+}
+
+*{
+	box-sizing:border-box;
+}
+.white{
+	background-color: white;
+}
+.grey{
+	background-color:  whitesmoke;
+}
+
+.header{
+	background:url("https://21g6p436jemo16mo9n1a25yq-wpengine.netdna-ssl.com/v1/wp-content/uploads/sites/36/2014/10/agency-corp-0120-comp.jpg");
+}
+
+.container2{
+	display:block;
+	min-height: 100vh;
+	background-color: black;
+	
+
+}
+
+.section{
+	padding-top: 100px;
+	padding-bottom:	 100px;
+	
+	                                                    /* doubt:min-height-50vh taking entire screen;*/	
+}
+.center{
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*
+.row{
+	margin: 0;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+}
+*/
+.paddingOneFourth{
+ 	padding: 0 25px;
+}
+
+
+.flex1{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 100%;
+
+}
+
+.paragraph{
+	display: flex;
+	display-direction:row;
+}
+
+
+.paraCommon{
+	width: calc(50% - 20px);
+	flex-basis:400px;
+	flex-grow: 1;
+	height: 50%;
+}
+
+img{
+     display: block;
+     position: relative;
+     width: 100%;
+     max-width: none;
+}
+
+.img{
+    display: flex; 
+    overflow: hidden; 
+    align-content: flex-start;
+    box-sizing: content-box;
+  
+}
+.intro{
+	padding-top:15px;
+		
+}
+
+
+.miniColumn{
+	padding: 0 25px;
+}
+
+.row{
+	display:flex;
+}
+
+.centerFlex{
+	display: flex;
+	justify-content: center;	
+}
+.minusMarginOneFourth{
+
+	margin: 0 -25px;
+}
+.minusMarginOneTenth{
+	margin: 0 -10px;
+}
+
+
+a{
+  	display: inline-flex;
+  	flex-basis:none;
+  	text-decoration: none;
+  	align-content:space-around;
+  	color: black;
+}
+a:hover{
+	color: #e0a240;
+}
+/*
+background: url("https://21g6p436jemo16mo9n1a25yq-wpengine.netdna-ssl.com/v1/wp-content/uploads/sites/36/2014/10/oshin-ipad-mock-1160x700.jpg");
+	background-size: cover;
+	background-position: center;*/
+
+a > img{
+    width:40px;
+    height: 40px;  
+    margin-right: 5px;
+}
+
+h6{
+	margin: 0;
+	padding: 0;
+}
+
+.name{
+	margin: 5px;
+}
+.designation{
+	margin-bottom: 5px;
+}
+.detail{
+	margin-bottom: 10px; 
+}
+
+.recentTitle{
+	margin-bottom: 20px;
+}
+.recentPosts{
+   margin:15px; 
+}
+.logo-wrapper{
+	display: flex;
+	flex-direction: row;
+
+}
+.aboutRow{
+
+	
+	padding: 20px 30px;
+	border: 7px solid black;
+}
+.icons{
+	display: inline-block;
+	align-content: space-between;
+
+}
+i{
+	margin-right: 5px ;
+}
+
+span{
+	margin-top:5px;
+}
+.links{
+	margin-left: 20px;
+}
+.head{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+ul{
+	list-style-type: none;
+	padding-inline-start:20px;
+}
+li{
+	margin-bottom: 10px;
+}
+.instaImages{
+	display: flex;
+	flex-wrap: wrap;
+	margin:0 !important;
+	align-content: space-around;
+
+}
+.instaImages img{
+	height: 50px;
+	width: 50px;
+
+}
+p img{
+	width: 50%;
+}
+.miniImageMargin
+{
+   margin-right: 5px;
+   margin-bottom: 5px;
+}
+
+.columnContainer{
+	width: 100%;
+}
+
+.widthOneFifth{
+	width: 20%;
+}
+
+.widthOneFourth{
+      width: 25%; 	
+}
+.minusMarginOneFourth .columnContainer{
+	padding: 0 20px;
+}
+.section .center{
+
+	margin-bottom: 50px;
+}
+
+.section .center:last-child{
+	margin-bottom: 0;
+}
+
+@media only screen and (max-width:550px){
+	.columnContainer{
+		width: 100%;
+	}
+	.row{
+		flex-wrap: wrap;
+	}
+	.minusMarginOneFourth .columnContainer {
+    	margin-bottom:20px;
+    }
+    .minusMarginOneFourth .columnContainer:last-child{
+    	margin-bottom:0;
+    }
+    
+
+
+} 
+
+/*
+
+	var j = [].indexOf.call(list, event.target.parentElement);
+
+*/
